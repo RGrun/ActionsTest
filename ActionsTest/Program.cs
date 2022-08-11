@@ -16,6 +16,8 @@ TestObj testObj = new TestObj()
 
 Console.WriteLine(JsonConvert.SerializeObject(testObj));
 
+Console.WriteLine("test");
+
 class TestObj
 {
     public string TestOne;
